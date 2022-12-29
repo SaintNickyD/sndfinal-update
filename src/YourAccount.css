@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+}
+
+.yourAccount__header {
+  margin-top: 50px;
+  color: whitesmoke;
+  border-radius: 800px;
+  border: 5px solid black;
+  font-family: arial whitesmoke;
+  background-color: black;
+  display: flex;
+  height: 80px;
+  font-size: xx-large;
+  justify-content: center;
+  align-items: center;
+}
+
+.yourAccount__options {
+  flex-direction: row;
+  color: whitesmoke;
+  padding: 20px;
+  display: flex;
+  flex: 0.2;
+  align-items: flex-start;
+  border: 5px solid black;
+  font-family: arial whitesmoke;
+  background-color: rgb(65, 65, 65);
+  width: 600px;
+  height: 600px;
+  justify-content: space-evenly;
+  margin: 20px;
+  margin-top: 80px;
+  font-size: larger;
+}
+
+.yourAccount__item {
+  flex-direction: column;
+  margin-top: -70px;
+  margin: 30px;
+  background: blue;
+  border: 5px solid rgb(0, 0, 0);
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  margin-left: 0px;
+}
+
+.yourAccount__input {
+  margin-left: 20px;
+  height: 30px;
+  width: 380px;
+  border: 2px solid black;
+}
+
+.save_changes {
+  display: flex;
+  margin-left: 420px;
+  margin-top: 20px;
+}
+
+.yourAccount__logo {
+  display: flex;
+  float: right;
+}

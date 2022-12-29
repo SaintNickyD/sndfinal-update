@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  max-width: 1500;
+}
+.OnTop_Regiment {
+  margin-top: -200px;
+}
+.regiment__logoContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -200;
+  mask-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  z-index: 1;
+}
+
+.regiment__logo {
+  margin-top: 200px;
+  size: initial;
+}
+
+.regiment__leftLogo {
+  margin-top: 200px;
+}
+
+.regiment__rightLogo {
+  margin-top: 200px;
+}
+
+.regiment__title {
+  display: flex;
+  color: whitesmoke;
+  margin-top: -255px;
+  border-radius: -800px;
+  border: 30px solid black;
+  font-family: arial whitesmoke;
+  background-color: black;
+  font-size: xxx-large;
+}
+
+.regiment__list {
+  margin-top: -20px;
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+  font-family: arial whitesmoke;
+  background-color: black;
+  font-size: x-large;
+  font-weight: inherit;
+  padding-left: 40px;
+}
